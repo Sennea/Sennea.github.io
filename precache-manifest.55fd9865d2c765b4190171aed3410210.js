@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0a3cb1507e3d032040fbbc6d1c36f3b",
+    "revision": "cc45088b23102f158a05888432af02af",
     "url": "/portfolio/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.2b8c9d2e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e365b79bd1d70fb17d0e",
-    "url": "/portfolio/static/js/main.7c2ef182.chunk.js"
+    "revision": "0a45cd442c2e0150542f",
+    "url": "/portfolio/static/js/main.1ef0c1ef.chunk.js"
   },
   {
     "revision": "f619aeccc94a0d089131",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/engeener.ffa2b21a.gif"
   },
   {
-    "revision": "741f3072b231fc4c2c74141a456fcd15",
-    "url": "/portfolio/static/media/gameOfLife.741f3072.gif"
+    "revision": "97f56017f7357ca6a6327836959ac481",
+    "url": "/portfolio/static/media/gameOfLife.97f56017.gif"
   },
   {
     "revision": "e8d12887b8851a28c8d376349e66c6c5",
