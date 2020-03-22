@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.3b5ffe40.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3b5ffe40.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
+    "main.js": "/portfolio/static/js/main.d90d9f7f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d90d9f7f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.cf241e34.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.cf241e34.js.map",
     "static/css/2.eb43dee1.chunk.css": "/portfolio/static/css/2.eb43dee1.chunk.css",
-    "static/js/2.ba090305.chunk.js": "/portfolio/static/js/2.ba090305.chunk.js",
-    "static/js/2.ba090305.chunk.js.map": "/portfolio/static/js/2.ba090305.chunk.js.map",
+    "static/js/2.8bc0be22.chunk.js": "/portfolio/static/js/2.8bc0be22.chunk.js",
+    "static/js/2.8bc0be22.chunk.js.map": "/portfolio/static/js/2.8bc0be22.chunk.js.map",
+    "static/js/3.6d6b589b.chunk.js": "/portfolio/static/js/3.6d6b589b.chunk.js",
+    "static/js/3.6d6b589b.chunk.js.map": "/portfolio/static/js/3.6d6b589b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f2af26f62cf73e9b917a406a8e5f4a65.js": "/portfolio/precache-manifest.f2af26f62cf73e9b917a406a8e5f4a65.js",
+    "precache-manifest.1641f0d3ecd626a07fbc8bb9a8a84963.js": "/portfolio/precache-manifest.1641f0d3ecd626a07fbc8bb9a8a84963.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.eb43dee1.chunk.css.map": "/portfolio/static/css/2.eb43dee1.chunk.css.map",
-    "static/js/2.ba090305.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ba090305.chunk.js.LICENSE.txt",
+    "static/js/2.8bc0be22.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8bc0be22.chunk.js.LICENSE.txt",
     "static/media/celluralAutomata.gif": "/portfolio/static/media/celluralAutomata.25e0c596.gif",
     "static/media/celluralAutomata.png": "/portfolio/static/media/celluralAutomata.b1b5e3af.png",
     "static/media/engeener.png": "/portfolio/static/media/engeener.1443d9a3.png",
@@ -30,9 +32,9 @@
     "static/media/weather.png": "/portfolio/static/media/weather.5579fa93.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.075c0788.js",
+    "static/js/runtime-main.cf241e34.js",
     "static/css/2.eb43dee1.chunk.css",
-    "static/js/2.ba090305.chunk.js",
-    "static/js/main.3b5ffe40.chunk.js"
+    "static/js/2.8bc0be22.chunk.js",
+    "static/js/main.d90d9f7f.chunk.js"
   ]
 }
