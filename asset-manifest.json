@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.7c2ef182.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7c2ef182.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
+    "static/css/2.eb43dee1.chunk.css": "/portfolio/static/css/2.eb43dee1.chunk.css",
+    "static/js/2.2b8c9d2e.chunk.js": "/portfolio/static/js/2.2b8c9d2e.chunk.js",
+    "static/js/2.2b8c9d2e.chunk.js.map": "/portfolio/static/js/2.2b8c9d2e.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.75aa633b90922bc6dc3c760a3e493b16.js": "/portfolio/precache-manifest.75aa633b90922bc6dc3c760a3e493b16.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.eb43dee1.chunk.css.map": "/portfolio/static/css/2.eb43dee1.chunk.css.map",
+    "static/js/2.2b8c9d2e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2b8c9d2e.chunk.js.LICENSE.txt",
+    "static/media/celluralAutomata.gif": "/portfolio/static/media/celluralAutomata.25e0c596.gif",
+    "static/media/celluralAutomata.png": "/portfolio/static/media/celluralAutomata.b1b5e3af.png",
+    "static/media/engeener.png": "/portfolio/static/media/engeener.1443d9a3.png",
+    "static/media/engeener.gif": "/portfolio/static/media/engeener.ffa2b21a.gif",
+    "static/media/gameOfLife.gif": "/portfolio/static/media/gameOfLife.741f3072.gif",
+    "static/media/gameOfLife.png": "/portfolio/static/media/gameOfLife.e8d12887.png",
+    "static/media/instagram.gif": "/portfolio/static/media/instagram.37648c9c.gif",
+    "static/media/instagram.png": "/portfolio/static/media/instagram.c96664d7.png",
+    "static/media/mes.gif": "/portfolio/static/media/mes.12f727c1.gif",
+    "static/media/mes.JPG": "/portfolio/static/media/mes.ae924c6b.JPG",
+    "static/media/photo.jpg": "/portfolio/static/media/photo.16166faa.jpg",
+    "static/media/photo2.jpg": "/portfolio/static/media/photo2.8596cfb3.jpg",
+    "static/media/toDoList.gif": "/portfolio/static/media/toDoList.08bd8155.gif",
+    "static/media/toDoList.png": "/portfolio/static/media/toDoList.8feff9df.png",
+    "static/media/weather.gif": "/portfolio/static/media/weather.3c1af2c3.gif",
+    "static/media/weather.png": "/portfolio/static/media/weather.5579fa93.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.075c0788.js",
+    "static/css/2.eb43dee1.chunk.css",
+    "static/js/2.2b8c9d2e.chunk.js",
+    "static/js/main.7c2ef182.chunk.js"
+  ]
+}
