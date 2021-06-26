@@ -85,3 +85,10 @@ export const SectionDescription = styled.h3`
     color: gray;
     margin: 5px 0 10px 0;
 `;
+
+export const SectionDescriptionLink = styled.a`
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    margin: 5px 0 10px 0;
+`;

@@ -1,9 +1,18 @@
 import React from 'react'
 import { ProjectBannerPropTypes } from './types';
-import { ProjectBannerWrapper, SectionHeader, SectionDescription, MoreBannerWrapper, DescriptionWrapper, ProjectImage, AreaWrapper, StackWrapper, StackIcon } from './utils';
+import { ProjectBannerWrapper, SectionHeader, SectionDescription,SectionDescriptionLink, MoreBannerWrapper, DescriptionWrapper, ProjectImage, AreaWrapper, StackWrapper, StackIcon } from './utils';
 import { STACK_IMAGES } from './constants';
 
-const ProjectBanner: React.SFC<ProjectBannerPropTypes> = ({image, gif, title, description, stacks, stackDescription, landscape, index}) => {
+const ProjectBanner: React.FC<ProjectBannerPropTypes> = ({image, gif, title, description, stacks, stackDescription, landscape, index}) => {
+    let multipleDescription;
+    if(description.includes('<a>')) {
+        multipleDescription = {
+            before: description.slice(0, description.indexOf('<')),
+            href: description.slice(description.indexOf('<'), description.lastIndexOf('>')+1).replace('<a>', '').replace('</a>', ''),
+            after: description.slice(description.lastIndexOf('>')+1, description.length),
+        }
+    }
+
     return(
         <ProjectBannerWrapper 
             landscape={landscape} 
@@ -13,7 +22,13 @@ const ProjectBanner: React.SFC<ProjectBannerPropTypes> = ({image, gif, title, de
             data-aos-easing="ease-in-out">
             <div>
                 <SectionHeader>{title}</SectionHeader>
-                <SectionDescription>{description}</SectionDescription>
+                {multipleDescription ? 
+                <div>
+                    <SectionDescription>{multipleDescription.before}</SectionDescription>
+                    <SectionDescriptionLink target="_blank" href={multipleDescription.href}>{multipleDescription.href}</SectionDescriptionLink>
+                    <SectionDescription>{multipleDescription.after}</SectionDescription>
+                </div>    : <SectionDescription>{description}</SectionDescription>
+            }
             </div>
             <MoreBannerWrapper>
                 {!(index%2) || !landscape ? <ProjectImage landscape={landscape} left={true} image={image} gif={gif? gif : image}/> : null}

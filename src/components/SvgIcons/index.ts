@@ -13,3 +13,8 @@ export {TypeScriptIcon} from './TypeScriptIcon';
 export {JavaScriptIcon} from './JavaScriptIcon';
 export {ReactNativeIcon} from './ReactNativeIcon';
 export {ReactReduxIcon} from './ReactReduxIcon';
+export {ArduinoIcon} from './ArduinoIcon';
+export {VueIcon} from './VueIcon';
+export {DjangoIcon} from './DjangoIcon';
+export {PythonIcon} from './PythonIcon';
+export {AWSIcon} from './AWSIcon';

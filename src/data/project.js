@@ -12,6 +12,10 @@ import toDoListImg from '../images/toDoList.png'
 import toDoListGif from '../images/toDoList.gif'
 import weatherImg from '../images/weather.png'
 import weatherGif from '../images/weather.gif'
+import feedererImg from '../images/feederer.png'
+import feedererGif from '../images/feederer.gif'
+import recipesAppImg from '../images/recipesApp.png'
+import recipesAppGif from '../images/recipesApp.gif'
 import meImg from '../images/photo2.jpg'
 
 
@@ -21,9 +25,9 @@ export const projects = [
         image: meImg,
         gif: meImg,
         title: 'Current Job',
-        description: 'I\'m currently working as a Software Developer in Grand Parade- part of William Hill Company. I\' ve started work here in July 2019 and due that time I\'ve increased my knowledge a lot',
-        stacks: ['React', 'JavaScript', 'TypeScript', 'GraphQl', 'ReactRedux'],
-        stackDescription: 'I\'m working with ReactJs based on TypeScript. I\'m constantly writing unit tests using react testing library, jest and enzyme. I am also familiar with usage of GrapgQL and React Redux ',
+        description: 'I\'m currently working as a Software Developer in Grand Parade- part of William Hill Company. I\' ve started work here in July 2019 and due that time I\'ve increased my knowledge a lot. Together with team we were working on many very interesting projects, but from one year we are working on something really awesome. In one Year we made full website from scratch which is fast, beautifull and usefull. Despite this we are still aiming to make it better, even faster so we can call it the best site in the world. And well I won\'t lie if I tell we are pretty close to our goal.',
+        stacks: ['React', 'JavaScript', 'AWS', 'TypeScript', 'GraphQl', 'ReactRedux'],
+        stackDescription: 'I\'m working with ReactJs based on TypeScript. I\'m writing also backend using Node.js and Express. During work here I had a chance to acknowledge a little bit with AWS. I\'m constantly writing unit tests using react testing library, jest and enzyme. I am also familiar with usage of GrapgQL and React Redux ',
     },
     {
         image: instagramImg,
@@ -32,6 +36,22 @@ export const projects = [
         description: 'It was my first project created for university lessons. It is application similar to instagram. It allows user to register, login, add photos and relations which will dissapear in 1 day. They also can comment, like and unlike photos, just like in real Instagram ',
         stacks: ['React', 'NodeJS', 'Bootstrap', "MongoDB", 'JavaScript'],
         stackDescription: 'Backend of the project was created with NodeJS and expressJS, with MongoDB database. Frontend was created with the use of ReactJS and bootstrap'
+    },
+    {
+        image: feedererImg,
+        gif: feedererGif,
+        title: 'Pet waterer and feeder',
+        description: 'It is a very usefull project to give water and food to Your pet especially for shelters. It includes watering and feeding systems. Both systems are sending data to ThingSpeak server from where they are collected by React application which is visualising current water and food level in both big container and bowl. There is also possibility to add resources from application. You can view presentation here: <a>https://www.youtube.com/watch?v=KrxFJlRMQNI</a>',
+        stacks: ['Arduino', 'React'],
+        stackDescription: 'Project was fully made using Ardiuno Ide and Wi-Fi microchip ESP8266. It is powered by two batteries and can work up to 7 days on them. Also supporting application was made using React'
+    },
+    {
+        image: recipesAppImg,
+        gif: recipesAppGif,
+        title: 'Recipes Application',
+        description: 'It is an application for presenting culinary recipes. User can Log in, register and add recipes. There is division for categories for better experience. Also in recipe page You can add comment, rate, and see steps and ingredients of a recipe',
+        stacks: ['Django', 'Python', 'React', 'JavaScript'],
+        stackDescription: 'Backend for the project was made using Python and Django with default SQLite. Frontend was made using JavaScript and Vue.js'
     },
     {
         image: engeenerImg,

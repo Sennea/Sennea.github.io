@@ -11,7 +11,7 @@ export interface LayoutType {
     children?: React.ReactNode;
 }
 
-const Layout: React.SFC<LayoutType> = ({children}) => {
+const Layout: React.FC<LayoutType> = ({children}) => {
     return(
         <LayoutWrapper>{children}</LayoutWrapper>
     )

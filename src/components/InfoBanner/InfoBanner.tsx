@@ -5,7 +5,7 @@ import { InfoBannerWrapper, Avatar, RoleWrapper, NameWrapper, MediaWrapper, Info
 import { InfoBannerPropTypes } from './types'
 
 
-const InfoBanner: React.SFC<InfoBannerPropTypes> = ({name, role, info, facebook, github, linkedin, landscape}) => {
+const InfoBanner: React.FC<InfoBannerPropTypes> = ({name, role, info, facebook, github, linkedin, landscape}) => {
     return(
         <InfoBannerWrapper landscape={landscape}>
             <Avatar src={photo} landscape={landscape}></Avatar>
