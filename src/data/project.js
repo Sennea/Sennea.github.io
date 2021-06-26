@@ -26,7 +26,7 @@ export const projects = [
         gif: meImg,
         title: 'Current Job',
         description: 'I\'m currently working as a Software Developer in Grand Parade- part of William Hill Company. I\' ve started work here in July 2019 and due that time I\'ve increased my knowledge a lot. Together with team we were working on many very interesting projects, but from one year we are working on something really awesome. In one Year we made full website from scratch which is fast, beautifull and usefull. Despite this we are still aiming to make it better, even faster so we can call it the best site in the world. And well I won\'t lie if I tell we are pretty close to our goal.',
-        stacks: ['React', 'JavaScript', 'AWS', 'TypeScript', 'GraphQl', 'ReactRedux'],
+        stacks: ['React', 'JavaScript', 'AWS', 'NodeJS', 'TypeScript', 'GraphQl', 'ReactRedux'],
         stackDescription: 'I\'m working with ReactJs based on TypeScript. I\'m writing also backend using Node.js and Express. During work here I had a chance to acknowledge a little bit with AWS. I\'m constantly writing unit tests using react testing library, jest and enzyme. I am also familiar with usage of GrapgQL and React Redux ',
     },
     {
@@ -50,7 +50,7 @@ export const projects = [
         gif: recipesAppGif,
         title: 'Recipes Application',
         description: 'It is an application for presenting culinary recipes. User can Log in, register and add recipes. There is division for categories for better experience. Also in recipe page You can add comment, rate, and see steps and ingredients of a recipe',
-        stacks: ['Django', 'Python', 'React', 'JavaScript'],
+        stacks: ['Django', 'Python', 'Vue', 'JavaScript'],
         stackDescription: 'Backend for the project was made using Python and Django with default SQLite. Frontend was made using JavaScript and Vue.js'
     },
     {
